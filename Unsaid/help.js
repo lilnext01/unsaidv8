@@ -8,86 +8,75 @@ ${instagram}
 \`\`\`SUBSCRIBE😁\`\`\`
 ${yt}
 
-\`\`\`GROUP OFFICIAL\`\`\`
-https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 
 
-\`\`\`HARAP BACA NOTE DIBAWAH SEBELUM\`\`\`
-\`\`\`MENGGUNAKAN BOT\`\`\`
-
-╭──────「 *REGULATION ${name}* 」
+╭──────「 *REGULAMENTO ${name}* 」
 ┴
-┣⊱  \`\`\`NAMA USER:\`\`\` *${pushname2}*
-┣⊱  \`\`\`VERIVICATION:\`\`\` ✅
-┣⊱  \`\`\`LIMIT:\`\`\` *${limitt} perhari*
-┣⊱  \`\`\`AKTIF:\`\`\` ${kyun(uptime)}
-┣⊱  \`\`\`JAM:\`\`\` *${jam} WIB*
-┣⊱  \`\`\`TANGGAL:\`\`\` *${tanggal}*
-┣⊱  \`\`\`VERSION:\`\`\` *6.5.0*
-┣⊱  \`\`\`USER TERDAFTAR:\`\`\` *${user.length} User*
+┣⊱  \`\`\`NOME DO USUÁRIO:\`\`\` *${pushname2}*
+┣⊱  \`\`\`VERIFICAÇÃO:\`\`\` ✅
+┣⊱  \`\`\`LIMITE:\`\`\` *${limitt} por dia*
+┣⊱  \`\`\`ATIVO:\`\`\` ${kyun(uptime)}
+┣⊱  \`\`\`HORÁRIO:\`\`\` *${jam} WIB*
+┣⊱  \`\`\`DATA:\`\`\` *${tanggal}*
+┣⊱  \`\`\`VERSÃO:\`\`\` *5.5.0*
+┣⊱  \`\`\`USUÁRIO REGISTRADO:\`\`\` *${user.length} Usuário*
 ┣⊱  ❌ *SPAM*
 ┣⊱  ❌ *CALL & VC*
-┣⊱  \`\`\`Melanggar??\`\`\` *Banned + Out Group*
 ┬
 ╰────────────────────────
 
 
-╭──────「 *ABOUT ${name}* 」
+╭──────「 *AJUDA ${name}* 」
 ┴
-│➻ *${prefix}report lapor bug*
+│➻ *${prefix}report _reportar erros_*
 │➻ *${prefix}info*
-│➻ *${prefix}donasi*
 │➻ *${prefix}limit*
 │➻ *${prefix}owner*
 │➻ *${prefix}speed*
-│➻ *${prefix}daftar*
+│➻ *${prefix}registrar*
 │➻ *${prefix}totaluser*
 │➻ *${prefix}blocklist*
 │➻ *${prefix}banlist*
 │➻ *${prefix}premiumlist*
-│➻ *${prefix}bahasa*
+│➻ *${prefix}idiomas*
 ┬
 ╰────────────────────────
 
 
-͏͏͏͏͏͏͏͏͏͏͏͏͏͏╭──────「 *MEDIA DOWNLOADER* 」
+͏͏͏͏͏͏͏͏͏͏͏͏͏͏╭──────「 *BAIXAR MÍDIAS* 」
 ┴
 │➻ *${prefix}tiktokstalk username*
-│➻ *${prefix}igstalk _farhan_xcode7*
-│➻ *${prefix}instavid link valid*
-│➻ *${prefix}instaimg link valid*
+│➻ *${prefix}igstalk lilnext01*
+│➻ *${prefix}instavid link válido*
+│➻ *${prefix}instaimg link válido*
 │➻ *${prefix}instastory username*
 │➻ *${prefix}ssweb url*
 │➻ *${prefix}url2img Url*
 │➻ *${prefix}tiktok*
 │➻ *${prefix}fototiktok*
-│➻ *${prefix}memeindo*
-│➻ *${prefix}kbbi*
 │➻ *${prefix}wait*
 │➻ *${prefix}trendtwit*
-│➻ *${prefix}google berita terkini*
 ┬
 ╰────────────────────────
 
 
-╭──────「 *CREATOR MENU* 」
+╭──────「 *MENU DO CRIADOR* 」
 ┴
-│➻ *${prefix}quotemaker tx/wtrmk/tema*
-│➻ *${prefix}nulis nama/kelas/text*
-│➻ *${prefix}croman FXC7 dan BOT*
-│➻ *${prefix}slide Fxc7 BOT WA*
+│➻ *${prefix}escrever nome/texto1/texto2*
+│➻ *${prefix}croman UNSAID BOT*
+│➻ *${prefix}slide  BOT UNSAID*
 │
-│➻ *${prefix}tahta FXC7*
-│➻ *${prefix}cglass FXC7*
-│➻ *${prefix}cstyle FXC7*
-│➻ *${prefix}cgame FXC7*
-│➻ *${prefix}clove FXC7*
-│➻ *${prefix}cparty FXC7*
-│➻ *${prefix}csky FXC7*
-│➻ *${prefix}tts id Haii*
-│➻ *${prefix}ttp Fxc7*
-│➻ *${prefix}cballon Fxc7*
-│➻ *${prefix}cpaper Fxc7*
+│➻ *${prefix}tahta UNSAID*
+│➻ *${prefix}cglass UNSAID*
+│➻ *${prefix}cstyle UNSAID*
+│➻ *${prefix}cgame UNSAID*
+│➻ *${prefix}clove UNSAID*
+│➻ *${prefix}cparty UNSAID*
+│➻ *${prefix}csky UNSAID*
+│➻ *${prefix}tts id olá *
+│➻ *${prefix}ttp Unsaid*
+│➻ *${prefix}cballon Unsaid*
+│➻ *${prefix}cpaper Unsaid*
 │
 │➻ *${prefix}stiker*
 │➻ *${prefix}gifstiker*
@@ -99,7 +88,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ╰──────────────────────────
 
 
-╭───────「 *GROUP ONLY* 」
+╭───────「 *PARA O GRUPO* 」
 ┴
 │➻ *${prefix}modeanime On/Off*
 │➻ *${prefix}naruto*
@@ -121,18 +110,18 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ┬
 ╰───────────────────────
 
-╭───────「 *GROUP ONLY* 」
+╭───────「 *PARA O GRUPO* 」
 ┴
 │➻ *${prefix}welcome On/Off*
-│➻ *${prefix}grup buka/tutup*
+│➻ *${prefix}grup Aberto/fechado*
 │➻ *${prefix}ownergrup*
 │➻ *${prefix}setpp*
 │➻ *${prefix}infogc*
-│➻ *${prefix}add 628xxxxxxxxxx*
-│➻ *${prefix}kick @mentioned*
-│➻ *${prefix}kicktime @mentioned*
-│➻ *${prefix}promote @mentioned*
-│➻ *${prefix}demote @mentioned*
+│➻ *${prefix}add 5551xxxxxxxx*
+│➻ *${prefix}kick @marcar*
+│➻ *${prefix}kicktime @marcar*
+│➻ *${prefix}promote @marcar*
+│➻ *${prefix}demote @marcar*
 │➻ *${prefix}setname*
 │➻ *${prefix}setdesc*
 │➻ *${prefix}linkgrup*
@@ -145,7 +134,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ┬
 ╰────────────────────────
 
-╭───────「 *GROUP ONLY* 」
+╭───────「 *PARA O GRUPO* 」
 ┴
 │➻ *${prefix}nsfw On/Off*
 │➻ *${prefix}nsfwloli*
@@ -153,12 +142,11 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}nsfwneko*
 │➻ *${prefix}nsfwtrap*
 │➻ *${prefix}hentai*
-│➻ *${prefix}simih On/Off*
 ┬
 ╰────────────────────────
 
 
-╭──────「 *OTHERS FUN & GAME* 」
+╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
 ┴
 │➻ *${prefix}anjing*
 │➻ *${prefix}kucing*
@@ -171,10 +159,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}watak*
 │➻ *${prefix}hobby*
 │➻ *${prefix}infogempa*
-│➻ *${prefix}infonomor*
-│➻ *${prefix}quotes*
-│➻ *${prefix}truth*
-│➻ *${prefix}dare*
+│➻ *${prefix}infonomor**
 │➻ *${prefix}katabijak*
 │➻ *${prefix}fakta*
 │➻ *${prefix}darkjokes*
@@ -187,10 +172,10 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ┬
 ╰────────────────────────
 
-╭──────「 *OTHERS FUN & GAME* 」
+╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
 ┴
 │➻ *${prefix}jarak Banyuwangi/Surabaya*
-│➻ *${prefix}translate en/Apa kabar?*
+│➻ *${prefix}traduzir pt/Hello everyone*
 │➻ *${prefix}pasangan Farhan/Iriene*
 │➻ *${prefix}gantengcek Farhan*
 │➻ *${prefix}cantikcek Iriene*
@@ -198,12 +183,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 │➻ *${prefix}persengay Topan*
 │➻ *${prefix}pbucin Farhan*
 │➻ *${prefix}bpfont Farhan*
-│➻ *${prefix}textstyle FXC7*
-│➻ *${prefix}jadwaltv antv*
-│➻ *${prefix}lirik melukis senja*
-│➻ *${prefix}chord Melukis senja*
-│➻ *${prefix}wiki Adolf Hitler*
-│➻ *${prefix}brainly pertanyaan*
+│➻ *${prefix}textstyle UNSAID*
 │➻ *${prefix}resepmasakan rawon*
 │➻ *${prefix}map Banyuwangi*
 │➻ *${prefix}film Fast and Farious*
@@ -217,20 +197,19 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ╰───────────────────────────
 
 
-╭──────「 *OTHERS FUN & GAME* 」
+╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
 ┴
 │➻ *${prefix}puisiimg*
 │➻ *${prefix}asupan*
 │➻ *${prefix}tebakgambar*
 │➻ *${prefix}caklontong*
-│➻ *${prefix}family100*
 │➻ *${prefix}kalkulator 13*12*
 │➻ *${prefix}moddroid lightroom*
 │➻ *${prefix}happymod lightroom*
 ┬
 ╰────────────────────────
 
-╭──────「 *OTHERS FUN & GAME* 」
+╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
 ┴
 │➻ *${prefix}cerpen*
 │➻ *${prefix}cersex*
@@ -241,7 +220,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ┬
 ╰────────────────────────
 
-╭──────「 *OTHERS FUN & GAME* 」
+╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
 ┴
 │➻ *${prefix}jadwalsholat Banyuwangi*
 │➻ *${prefix}quran*
@@ -250,7 +229,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ┬
 ╰────────────────────────
 
-╭──────「 *OTHERS FUN & GAME* 」
+╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
 ┴
 │➻ *${prefix}becrypt string*
 │➻ *${prefix}encode64 string*
@@ -269,7 +248,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ┬
 ╰────────────────────────
 
-╭──────「 *OTHERS FUN & GAME* 」
+╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
 ┴
 │➻ *${prefix}spamcall 083xxxxxxxxx*
 │➻ *${prefix}spamsms 083xxxxxxxx/jumlah*
@@ -278,10 +257,10 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ╰────────────────────────
 
 
-╭─────────「 *OWNER ONLY* 」
+╭─────────「 *APENAS DONO* 」
 ┴
-│➻ *${prefix}addprem mentioned*
-│➻ *${prefix}removeprem mention*
+│➻ *${prefix}addprem mecionado*
+│➻ *${prefix}removeprem mecionar*
 │➻ *${prefix}setmemlimit*
 │➻ *${prefix}setreply*
 │➻ *${prefix}setprefix*
@@ -302,7 +281,7 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ╰────────────────────────
 
 
-╭────────「 *PREMIUM ONLY* 」
+╭────────「 *APENAS PREMIUM* 」
 ┴
 │➻ *${prefix}playmp3 menepi*
 │➻ *${prefix}fb link video*
@@ -315,14 +294,9 @@ https://chat.whatsapp.com/GHC5djoQJrcGBJFwYQuQoB
 ╰────────────────────────
 
 
-╭─────「 *SUPPORT ${name}* 」
+╭─────「 *SUPORTE ${name}* 」
 ┴
-│➲ *O BOT*
-│➲ *M. HADI FIRMANSYA*
-│➲ *DELIA AULIA*
-│➲ *KEVIN DAVID*
-│➲ *MY TEAM FXC7 BOT*
-│➲ *CONTENT CREATOR BOT WHATSAPP*
+│➲ *LILNEXT*
 ┬
 ╰────────────────────────`
 }
@@ -337,26 +311,19 @@ function kyun(seconds){
   var hours = Math.floor(seconds / (60*60));
   var minutes = Math.floor(seconds % (60*60) / 60);
   var seconds = Math.floor(seconds % 60);
-  return `*${pad(hours)} Jam ${pad(minutes)} Menit ${pad(seconds)} Detik*`
+  return `*${pad(hours)} Hora ${pad(minutes)} Minuto ${pad(seconds)} Segundo*`
 }
 
 // donasi menu
 const donasi = (name) => { 
 	return `       
-╭─────「 *DONASI SEIKHLASNYA* 」
-┴
-│√ *PULSA: 08311800241*
-│√ *OVO : 08311800241*
-┬
-╰──────「 *BY ${name}* 」
 
-Untuk Kelangsungan Hidup Bot Karna Kuota Mahal:'
-`
+╰──────「 *BY ${name}* 」
 }
 exports.donasi = donasi
 
 // bahasa list
-const bahasa = (prefix) => {
+const idioma = (prefix) => {
 return `
 List Bahasa Untuk Command *${prefix}tts*
 
@@ -412,12 +379,13 @@ List Bahasa Untuk Command *${prefix}tts*
   vi: Vietnamese
   cy: Welsh
 `
+exports.idioma = idioma
 }
-exports.bahasa = bahasa
+exp
 
 // Limit
 const limitend = (pushname2) => {
-        return`*maaf ${pushname2} limit hari ini habis*\n*limit di reset setiap jam 12:00 WIB TENGAH MALAM*`
+        return`*desculpe ${pushname2} O limite de hoje expirou*\n*O limite é zerado à cada 12h*`
 }
 
 const limitcount = (limitCounts) => {
