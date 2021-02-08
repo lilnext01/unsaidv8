@@ -1,15 +1,15 @@
-console.log('Starting...')
+console.log('Iniciando...')
 let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('Welcome In\nTermux Bot Wa', {
+CFonts.say('Welcome In\nBot Unsaid', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`${package.name} By FarhanXCo`, {
+CFonts.say(`${package.name} By LilNext`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
