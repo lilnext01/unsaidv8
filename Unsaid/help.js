@@ -2,11 +2,9 @@
 const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam, tanggal) => { 
 	return `
 	
-\`\`\`Follow My Instagram\`\`\`
+\`\`\`Siga-me no Instagram\`\`\`
 ${instagram}
 
-\`\`\`SUBSCRIBE😁\`\`\`
-${yt}
 
 
 
@@ -16,7 +14,7 @@ ${yt}
 ┣⊱  \`\`\`VERIFICAÇÃO:\`\`\` ✅
 ┣⊱  \`\`\`LIMITE:\`\`\` *${limitt} por dia*
 ┣⊱  \`\`\`ATIVO:\`\`\` ${kyun(uptime)}
-┣⊱  \`\`\`HORÁRIO:\`\`\` *${jam} WIB*
+┣⊱  \`\`\`HORÁRIO:\`\`\` *${jam} H*
 ┣⊱  \`\`\`DATA:\`\`\` *${tanggal}*
 ┣⊱  \`\`\`VERSÃO:\`\`\` *5.5.0*
 ┣⊱  \`\`\`USUÁRIO REGISTRADO:\`\`\` *${user.length} Usuário*
@@ -30,7 +28,7 @@ ${yt}
 ┴
 │➻ *${prefix}report _reportar erros_*
 │➻ *${prefix}info*
-│➻ *${prefix}limit*
+│➻ *${prefix}limite*
 │➻ *${prefix}owner*
 │➻ *${prefix}speed*
 │➻ *${prefix}registrar*
@@ -38,7 +36,7 @@ ${yt}
 │➻ *${prefix}blocklist*
 │➻ *${prefix}banlist*
 │➻ *${prefix}premiumlist*
-│➻ *${prefix}idiomas*
+│➻ *${prefix}idioma*
 ┬
 ╰────────────────────────
 
@@ -65,18 +63,9 @@ ${yt}
 │➻ *${prefix}escrever nome/texto1/texto2*
 │➻ *${prefix}croman UNSAID BOT*
 │➻ *${prefix}slide  BOT UNSAID*
-│
 │➻ *${prefix}tahta UNSAID*
-│➻ *${prefix}cglass UNSAID*
-│➻ *${prefix}cstyle UNSAID*
-│➻ *${prefix}cgame UNSAID*
-│➻ *${prefix}clove UNSAID*
-│➻ *${prefix}cparty UNSAID*
-│➻ *${prefix}csky UNSAID*
-│➻ *${prefix}tts id olá *
-│➻ *${prefix}ttp Unsaid*
-│➻ *${prefix}cballon Unsaid*
-│➻ *${prefix}cpaper Unsaid*
+
+
 │
 │➻ *${prefix}stiker*
 │➻ *${prefix}gifstiker*
@@ -105,7 +94,6 @@ ${yt}
 │➻ *${prefix}miku*
 │➻ *${prefix}anime*
 │➻ *${prefix}animecry*
-│➻ *${prefix}neonime*
 │➻ *${prefix}animekiss*
 ┬
 ╰───────────────────────
@@ -113,23 +101,23 @@ ${yt}
 ╭───────「 *PARA O GRUPO* 」
 ┴
 │➻ *${prefix}welcome On/Off*
-│➻ *${prefix}grup Aberto/fechado*
-│➻ *${prefix}ownergrup*
+│➻ *${prefix}grupo Aberto/fechado*
+│➻ *${prefix}ownergrupo*
 │➻ *${prefix}setpp*
-│➻ *${prefix}infogc*
+│➻ *${prefix}infogp*
 │➻ *${prefix}add 5551xxxxxxxx*
 │➻ *${prefix}kick @marcar*
 │➻ *${prefix}kicktime @marcar*
-│➻ *${prefix}promote @marcar*
-│➻ *${prefix}demote @marcar*
+│➻ *${prefix}promover @marcar*
+│➻ *${prefix}rebaixar @marcar*
 │➻ *${prefix}setname*
 │➻ *${prefix}setdesc*
-│➻ *${prefix}linkgrup*
+│➻ *${prefix}linkgrupo*
 │➻ *${prefix}tagme*
 │➻ *${prefix}hidetag*
 │➻ *${prefix}tagall*
-│➻ *${prefix}mentionall*
-│➻ *${prefix}fitnah*
+│➻ *${prefix}mecionar*
+│➻ *${prefix}fike*
 │➻ *${prefix}listadmin*
 ┬
 ╰────────────────────────
@@ -148,51 +136,25 @@ ${yt}
 
 ╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
 ┴
-│➻ *${prefix}anjing*
-│➻ *${prefix}kucing*
+│➻ *${prefix}chances*
 │➻ *${prefix}testime*
-│➻ *${prefix}hilih*
-│➻ *${prefix}apakah*
-│➻ *${prefix}kapankah*
-│➻ *${prefix}bisakah*
-│➻ *${prefix}rate*
-│➻ *${prefix}watak*
-│➻ *${prefix}hobby*
-│➻ *${prefix}infogempa*
-│➻ *${prefix}infonomor**
-│➻ *${prefix}katabijak*
-│➻ *${prefix}fakta*
-│➻ *${prefix}darkjokes*
-│➻ *${prefix}bucin*
-│➻ *${prefix}pantun*
-│➻ *${prefix}katacinta*
-│➻ *${prefix}jadwaltvnow*
+│➻ *${prefix}ship*
+│➻ *${prefix}infonumero*
+
+│➻ *${prefix}unsaidjokes*
 │➻ *${prefix}hekerbucin*
-│➻ *${prefix}katailham*
 ┬
 ╰────────────────────────
 
 ╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
 ┴
-│➻ *${prefix}jarak Banyuwangi/Surabaya*
 │➻ *${prefix}traduzir pt/Hello everyone*
-│➻ *${prefix}pasangan Farhan/Iriene*
-│➻ *${prefix}gantengcek Farhan*
-│➻ *${prefix}cantikcek Iriene*
-│➻ *${prefix}artinama Farhan*
-│➻ *${prefix}persengay Topan*
-│➻ *${prefix}pbucin Farhan*
-│➻ *${prefix}bpfont Farhan*
+│➻ *${prefix}bpfont _Texto*
 │➻ *${prefix}textstyle UNSAID*
-│➻ *${prefix}resepmasakan rawon*
-│➻ *${prefix}map Banyuwangi*
-│➻ *${prefix}film Fast and Farious*
-│➻ *${prefix}pinterest gambar kucing*
-│➻ *${prefix}infocuaca Banyuwangi*
-│➻ *${prefix}jamdunia Banyuwangi*
-│➻ *${prefix}mimpi Ular*
-│➻ *${prefix}infoalamat jalan Banyuwangi*
-│➻ *${prefix}playstore WhatsApp*
+│➻ *${prefix}map Sao Paulo - Brasil*
+│➻ *${prefix}filme Fast and Farious*
+│➻ *${prefix}pinterest _pesquise_*
+│➻ *${prefix}relogio Brasília*
 ┬
 ╰───────────────────────────
 
@@ -201,9 +163,7 @@ ${yt}
 ┴
 │➻ *${prefix}puisiimg*
 │➻ *${prefix}asupan*
-│➻ *${prefix}tebakgambar*
-│➻ *${prefix}caklontong*
-│➻ *${prefix}kalkulator 13*12*
+│➻ *${prefix}calc 13*12*
 │➻ *${prefix}moddroid lightroom*
 │➻ *${prefix}happymod lightroom*
 ┬
@@ -214,20 +174,12 @@ ${yt}
 │➻ *${prefix}cerpen*
 │➻ *${prefix}cersex*
 │➻ *${prefix}randombokep*
-│➻ *${prefix}pornhub stepMoms*
-│➻ *${prefix}xvideos japan*
-│➻ *${prefix}nekopoi oni chichi*
+│➻ *${prefix}pornhub Lana Rhoades*
+│➻ *${prefix}xvideos BR*
+│➻ *${prefix}nekopoi oni chan*
 ┬
 ╰────────────────────────
 
-╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
-┴
-│➻ *${prefix}jadwalsholat Banyuwangi*
-│➻ *${prefix}quran*
-│➻ *${prefix}quranlist*
-│➻ *${prefix}quransurah 1*
-┬
-╰────────────────────────
 
 ╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
 ┴
@@ -240,7 +192,7 @@ ${yt}
 │➻ *${prefix}decbinary encrypt*
 │➻ *${prefix}encoctal string*
 │➻ *${prefix}decoctal encrypt*
-│➻ *${prefix}hashidentifier Encrypt Hash*
+│➻ *${prefix}hashidentifier Criptografar Hash*
 │➻ *${prefix}dorking dork*
 │➻ *${prefix}pastebin teks*
 │➻ *${prefix}tinyurl link*
@@ -250,9 +202,9 @@ ${yt}
 
 ╭──────「 *OUTROS, DIVERSÃO E JOGOS* 」
 ┴
-│➻ *${prefix}spamcall 083xxxxxxxxx*
-│➻ *${prefix}spamsms 083xxxxxxxx/jumlah*
-│➻ *${prefix}spamgmail contoh@gmail.com*
+│➻ *${prefix}spamcall 5551xxxxxxxx*
+│➻ *${prefix}spamsms 5551xxxxxxx/total*
+│➻ *${prefix}spamgmail exemplo@gmail.com*
 ┬
 ╰────────────────────────
 
@@ -261,18 +213,18 @@ ${yt}
 ┴
 │➻ *${prefix}addprem mecionado*
 │➻ *${prefix}removeprem mecionar*
-│➻ *${prefix}setmemlimit*
+│➻ *${prefix}setlimite*
 │➻ *${prefix}setreply*
 │➻ *${prefix}setprefix*
-│➻ *${prefix}setnamebot*
-│➻ *${prefix}setppbot*
-│➻ *${prefix}bc*
-│➻ *${prefix}bcgc*
+│➻ *${prefix}setnomebot*
+│➻ *${prefix}setbotpf*
+│➻ *${prefix}ts*
+│➻ *${prefix}tsgp*
 │➻ *${prefix}ban*
 │➻ *${prefix}unban*
 │➻ *${prefix}block*
 │➻ *${prefix}unblock*
-│➻ *${prefix}clearall*
+│➻ *${prefix}limpar*
 │➻ *${prefix}delete*
 │➻ *${prefix}clone*
 │➻ *${prefix}getses*
@@ -283,13 +235,13 @@ ${yt}
 
 ╭────────「 *APENAS PREMIUM* 」
 ┴
-│➻ *${prefix}playmp3 menepi*
+│➻ *${prefix}playmp3 _música desejada_*
 │➻ *${prefix}fb link video*
 │➻ *${prefix}snack link snack video*
 │➻ *${prefix}ytmp3 link yt*
 │➻ *${prefix}ytmp4 link yt*
-│➻ *${prefix}joox Monolog Pamungkas*
-│➻ *${prefix}smule Link Video Smule*
+│➻ *${prefix}joox ultimate logo*
+│➻ *${prefix}smule link video smule*
 ┬
 ╰────────────────────────
 
@@ -311,21 +263,21 @@ function kyun(seconds){
   var hours = Math.floor(seconds / (60*60));
   var minutes = Math.floor(seconds % (60*60) / 60);
   var seconds = Math.floor(seconds % 60);
-  return `*${pad(hours)} Hora ${pad(minutes)} Minuto ${pad(seconds)} Segundo*`
+  return `*${pad(hours)} Hora ${pad(minutes)} Minutos ${pad(seconds)} Segundos*`
 }
 
 // donasi menu
 const donasi = (name) => { 
 	return `       
 
-╰──────「 *BY ${name}* 」
+──────「 *BY ${name}* 」
 }
 exports.donasi = donasi
 
 // bahasa list
 const idioma = (prefix) => {
 return `
-List Bahasa Untuk Command *${prefix}tts*
+Lista de idiomas para comando *${prefix}tts*
 
   af: Afrikaans
   sq: Albanian
@@ -385,12 +337,12 @@ exp
 
 // Limit
 const limitend = (pushname2) => {
-        return`*desculpe ${pushname2} O limite de hoje expirou*\n*O limite é zerado à cada 12h*`
+        return`*desculpe ${pushname2} O seu limite de hoje expirou*\n*O limite é zerado à cada 12h*`
 }
 
 const limitcount = (limitCounts) => {
         return`
-Limit Kamu: ${limitCounts}
+Seu limite: ${limitCounts}
 `
 }
 
