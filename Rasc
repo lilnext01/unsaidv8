@@ -11,5 +11,32 @@
                          contextInfo: {mentionedJid: [nomor]},
                      }
                     client.sendMessage('555197195835@s.whatsapp.net', options, text, {quoted: mek})
-                    reply('Problemas foram relatados ao proprietário do BOT, relatórios falsos não serão respondidos.')
-                    break
+                    reply('Problemas foram relatados ao proprietário do BOT, relatórios falsos não serão respondidos
+
+
+
+
+
+case 'leave': 
+				    if (!isGroup) return reply(mess.only.group)
+					if (!isOwner) return reply(mess.only.ownerB)
+			    	anu = await client.groupLeave(from, `Bye, bye para todos os membros :/  *${groupMetadata.subject}*`, groupId)
+	                break
+				case 'setname':
+				if (isBanned) return reply(mess.only.benned)    
+				if (!isUser) return reply(mess.only.userB)
+                if (!isGroup) return reply(mess.only.group)
+			    if (!isGroupAdmins) return reply(mess.only.admin)
+				if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+                client.groupUpdateSubject(from, `${body.slice(9)}`)
+                client.sendMessage(from, `\`\`\`✓Nome do grupo alterado com sucesso para:\`\`\` *${body.slice(9)}*`, text, {quoted: mek})
+                break
+                case 'setdesc':
+                if (isBanned) return reply(mess.only.benned)    
+                if (!isUser) return reply(mess.only.userB)
+                if (!isGroup) return reply(mess.only.group)
+			    if (!isGroupAdmins) return reply(mess.only.admin)
+				if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+                client.groupUpdateDescription(from, `${body.slice(9)}`)
+                client.sendMessage(from, `\`\`\`✓Descriçao do grupo alterada com sucesso em\`\`\` *${groupMetadata.subject}*\n\nDescriçao: *${body.slice(9)}*`, text, {quoted: mek})
+                break
