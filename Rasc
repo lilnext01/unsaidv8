@@ -39,4 +39,22 @@ case 'leave':
 				if (!isBotGroupAdmins) return reply(mess.only.Badmin)
                 client.groupUpdateDescription(from, `${body.slice(9)}`)
                 client.sendMessage(from, `\`\`\`✓Descriçao do grupo alterada com sucesso em\`\`\` *${groupMetadata.subject}*\n\nDescriçao: *${body.slice(9)}*`, text, {quoted: mek})
-                break
+		
+		
+		
+		
+		
+		
+		
+		
+              case 'setpp':
+	            if (isBanned) return reply(mess.only.benned)    
+	            if (!isUser) return reply(mess.only.userB)
+                    if (!isGroup) return reply(mess.only.group)
+                    if (!isGroupAdmins) return reply(mess.only.admin)
+                    if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+                    media = await client.downloadAndSaveMediaMessage(mek)
+                    await client.updateProfilePicture (from, media)
+                    reply(mess.wait)
+                    reply(`\`\`\`✓Foto de Perfil do Grupo alterada com sucesso\`\`\` *${groupMetadata.subject}*`)
+                    break
