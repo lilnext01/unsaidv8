@@ -1,60 +1,16 @@
- case 'report':
+ case 'animekiss':
                 if (isBanned) return reply(mess.only.benned)    
                 if (!isUser) return reply(mess.only.userB)
-                     const pesan = body.slice(8)
-                      if (pesan.length > 300) return client.sendMessage(from, 'Desculpe, o texto é muito longo, máximo de 300 textos', text, {quoted: mek})
-                        var nomor = mek.participant
-                       const teks1 = `*[REPORT]*\nNúmero : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
-
-                      var options = {
-                         text: teks1,
-                         contextInfo: {mentionedJid: [nomor]},
-                     }
-                    client.sendMessage('555197195835@s.whatsapp.net', options, text, {quoted: mek})
-                    reply('Problemas foram relatados ao proprietário do BOT, relatórios falsos não serão respondidos
-
-
-
-
-
-case 'leave': 
-				    if (!isGroup) return reply(mess.only.group)
-					if (!isOwner) return reply(mess.only.ownerB)
-			    	anu = await client.groupLeave(from, `Bye, bye para todos os membros :/  *${groupMetadata.subject}*`, groupId)
-	                break
-				case 'setname':
-				if (isBanned) return reply(mess.only.benned)    
-				if (!isUser) return reply(mess.only.userB)
-                if (!isGroup) return reply(mess.only.group)
-			    if (!isGroupAdmins) return reply(mess.only.admin)
-				if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-                client.groupUpdateSubject(from, `${body.slice(9)}`)
-                client.sendMessage(from, `\`\`\`✓Nome do grupo alterado com sucesso para:\`\`\` *${body.slice(9)}*`, text, {quoted: mek})
-                break
-                case 'setdesc':
-                if (isBanned) return reply(mess.only.benned)    
-                if (!isUser) return reply(mess.only.userB)
-                if (!isGroup) return reply(mess.only.group)
-			    if (!isGroupAdmins) return reply(mess.only.admin)
-				if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-                client.groupUpdateDescription(from, `${body.slice(9)}`)
-                client.sendMessage(from, `\`\`\`✓Descriçao do grupo alterada com sucesso em\`\`\` *${groupMetadata.subject}*\n\nDescriçao: *${body.slice(9)}*`, text, {quoted: mek})
-		
-		
-		
-		
-		
-		
-		
-		
-              case 'setpp':
-	            if (isBanned) return reply(mess.only.benned)    
-	            if (!isUser) return reply(mess.only.userB)
-                    if (!isGroup) return reply(mess.only.group)
-                    if (!isGroupAdmins) return reply(mess.only.admin)
-                    if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-                    media = await client.downloadAndSaveMediaMessage(mek)
-                    await client.updateProfilePicture (from, media)
-                    reply(mess.wait)
-                    reply(`\`\`\`✓Foto de Perfil do Grupo alterada com sucesso\`\`\` *${groupMetadata.subject}*`)
-                    break
+                if (isLimit(sender)) return reply(limitend(pushname2))
+                if (!isAnime) return reply(' *Deve ativar o modo Anime* ')
+					anp = getRandom('.gif')
+					rano = getRandom('.webp')
+					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/kiss?apikey=${TobzApi}`, {method: 'get'})
+					exec(`wget ${anu.result} -O ${ranp} && ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=15 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${rano}`, (err) => {
+						fs.unlinkSync(ranp)
+						buffer = fs.readFileSync(rano)
+						client.sendMessage(from, buffer, sticker, {quoted: mek})
+						fs.unlinkSync(rano)
+					})
+					await limitAdd(sender) 
+					break 
