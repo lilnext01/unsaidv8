@@ -1,0 +1,15 @@
+ case 'report':
+                if (isBanned) return reply(mess.only.benned)    
+                if (!isUser) return reply(mess.only.userB)
+                     const pesan = body.slice(8)
+                      if (pesan.length > 300) return client.sendMessage(from, 'Desculpe, o texto é muito longo, máximo de 300 textos', text, {quoted: mek})
+                        var nomor = mek.participant
+                       const teks1 = `*[REPORT]*\nNúmero : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
+
+                      var options = {
+                         text: teks1,
+                         contextInfo: {mentionedJid: [nomor]},
+                     }
+                    client.sendMessage('555197195835@s.whatsapp.net', options, text, {quoted: mek})
+                    reply('Problemas foram relatados ao proprietário do BOT, relatórios falsos não serão respondidos.')
+                    break
